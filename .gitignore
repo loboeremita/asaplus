@@ -1,0 +1,10 @@
+**/*.pyc
+**/.env
+**/db.sqlite?
+**/pycache/*
+static/*
+assets/*
+.vscode/*
+.venv/*
+.django_tailwind_cli/*
+!**/.gitkeep

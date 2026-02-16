@@ -1,0 +1,46 @@
+[project]
+name = "ASAplus"
+version = "0.1.0"
+description = "Gerenciador de projetos da ASA"
+authors = [
+    {name = "Eloy Pires",email = "eloypires@gmail.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.14,<4.0"
+dependencies = [
+    "django (>=6.0.1,<7.0.0)",
+    "django-extensions (>=4.1,<5.0)",
+    "django-filter (>=25.2,<26.0)",
+    "django-environ (>=0.12.0,<0.13.0)",
+    "django-cotton (>=2.6.1,<3.0.0)",
+    "django-htmx (>=1.27.0,<2.0.0)",
+    "django-alpine (>=0.1.4,<0.2.0)",
+    "django-tailwind-cli (>=4.5.1,<5.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)",
+    "fontawesomefree (>=6.6.0,<7.0.0)"
+]
+
+[dependency-groups]
+dev = [
+    "djlint (>=1.36.4,<2.0.0)",
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-django (>=4.11.1,<5.0.0)",
+    "pytest-cov (>=7.0.0,<8.0.0)",
+    "pytest-xdist (>=3.8.0,<4.0.0)",
+    "pytest-playwright (>=0.7.2,<0.8.0)",
+    "hypothesis (>=6.150.2,<7.0.0)",
+    "model-bakery (>=1.23.2,<2.0.0)",
+    "werkzeug (>=3.1.5,<4.0.0)",
+    "ruff (>=0.14.14,<0.15.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.ruff]
+line-length = 120
+exclude = ["**/migrations"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
