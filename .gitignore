@@ -4,7 +4,6 @@
 **/pycache/*
 static/*
 assets/*
-.vscode/*
 .venv/*
 .django_tailwind_cli/*
 !**/.gitkeep
