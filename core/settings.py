@@ -46,6 +46,11 @@ INSTALLED_APPS = [
     'django_tailwind_cli',
     'django_alpine',
     'fontawesomefree',
+    'common',
+    'organizational',
+    'accounts',
+    'beneficiaries',
+    'benefits',
     'app',
 ]
 

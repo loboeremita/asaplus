@@ -391,6 +391,21 @@ files = [
 django = ">=4.2,<7.0"
 
 [[package]]
+name = "django-crispy-forms"
+version = "2.7"
+description = "Best way to have Django DRY forms"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "django_crispy_forms-2.7-py3-none-any.whl", hash = "sha256:42a7ecb05ac3fd050d006dfe7aeceb7f318c30e5b5124ff619e2be252f36f096"},
+    {file = "django_crispy_forms-2.7.tar.gz", hash = "sha256:4c59bed60417375cba26cebb2c67ab350b655934670270b1c89dbcd7e60f1b4c"},
+]
+
+[package.dependencies]
+django = ">=5.2"
+
+[[package]]
 name = "django-environ"
 version = "0.12.1"
 description = "A package that allows you to utilize 12factor inspired environment variables to configure your Django application."
@@ -1764,4 +1779,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14,<4.0"
-content-hash = "29f85f3aab96a6b689f6475c2b6a0e7a00ea1d7989a8f2755d9a05ca2f6a3f37"
+content-hash = "89205d304e90192404211742fb07986b21ffb756bb09e14b115abb62d1f99389"

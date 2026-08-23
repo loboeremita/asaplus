@@ -1,9 +1,13 @@
 **/*.pyc
 **/.env
 **/db.sqlite?
+**/__pycache__/*
 **/pycache/*
 static/*
 assets/*
 .venv/*
 .django_tailwind_cli/*
+.coverage
+.pytest_cache/
 !**/.gitkeep
+
